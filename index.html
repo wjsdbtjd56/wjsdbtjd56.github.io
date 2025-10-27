@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="주식회사 뤼벤 공식 홈페이지 – Flutch 앱 출시 예정" />
+  <meta name="description" content="주식회사 뤼벤 공식 홈페이지 – Flutch 및 Glock 앱 소개" />
   <title>주식회사 뤼벤 (Luiven Co., Ltd.)</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
@@ -83,6 +83,28 @@
       font-weight: 600;
       color: #ffc107;
     }
+    .app-card {
+      background: rgba(255,255,255,0.03);
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .app-info {
+      max-width: 70%;
+    }
+    .app-links a {
+      display: inline-block;
+      margin-left: 12px;
+      color: #0b3b6f;
+      background: #ffc107;
+      padding: 10px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 700;
+    }
     footer {
       text-align: center;
       padding: 20px;
@@ -107,6 +129,7 @@
     <ul class="tabs">
       <li><a href="index.html">앱소개</a></li>
       <li><a href="subscription.html">구독 안내</a></li>
+      <li><a href="glock.html">글록 (Glock)</a></li>
       <li><a href="delete_account.html">계정 삭제 안내</a></li>
     </ul>
   </nav>
@@ -117,6 +140,32 @@
       <strong>Flutch</strong>는 축구 경기를 유저들이 직접 예측하고, 친구들과 공유하며 경쟁할 수 있는 앱입니다.<br />
       축구를 사랑하는 팬들을 위한 새로운 소셜 스포츠 플랫폼 – <strong>Flutch</strong>는 안드로이드와 iOS에서 곧 만나보실 수 있습니다.
     </p>
+
+    <h2>🛡️ 새로운 앱 — 글록 (Glock)</h2>
+    <div class="app-card">
+      <div class="app-info">
+        <h3 style="margin:0 0 6px 0;">Glock — 술자리 안전한 통화 관리를 위한 앱</h3>
+        <p style="margin:0;">
+          Glock은 사용자가 술에 취했을 때 실수로 걸려나가는 전화를 방지하기 위해 발신 전화를 자동으로 차단하거나 확인하는 기능을 제공합니다.
+          접근성 권한을 통해 기기에서 발신 이벤트를 감지하고, 사용자가 원치 않는 통화를 자동으로 차단합니다.
+        </p>
+        <ul style="margin-top:10px; padding-left:18px;">
+          <li>원치 않는 발신 자동 차단</li>
+          <li>사용자 지정 차단 목록 관리</li>
+          <li>간단한 해제(Unlock) 절차 및 시간 기반 차단</li>
+        </ul>
+        <p style="margin-top:8px;"><a href="glock.html" style="color:#ffc107; text-decoration:underline;">자세히 보기 (Glock 페이지)</a></p>
+        <p style="margin-top:6px;">
+          <a href="glock_privacy.html" style="color:#fff; text-decoration:underline; margin-right:12px;">글록 개인정보처리방침</a>
+          <a href="glock_terms.html" style="color:#fff; text-decoration:underline;">글록 이용약관</a>
+        </p>
+      </div>
+
+      <div class="app-links" style="text-align:right;">
+        <!-- 나중에 앱스토어/플레이스토어 배지로 교체 가능 -->
+        <a href="glock.html">앱 페이지</a>
+      </div>
+    </div>
 
     <h2>📌 회사 정보</h2>
     <p><span class="label">대표자:</span> 전유성</p>
@@ -129,7 +178,12 @@
   <footer>
     <p>주식회사 뤼벤 | 사업자등록번호: 750-97-03350 | 대표자: 전유성</p>
     <p>주소: 서울특별시 서초구 사평대로길 13 | 통신판매업 신고번호: 제2023-서울서초-01234호 | 전화: 070-7954-6638</p>
-    <p><a href="terms.html" target="_blank">이용약관</a> | <a href="privacy.html" target="_blank">개인정보처리방침</a></p>
+    <p>
+      <a href="terms.html" target="_blank">이용약관(회사)</a> |
+      <a href="privacy.html" target="_blank">개인정보처리방침(회사)</a> |
+      <a href="glock_terms.html" target="_blank">글록 이용약관</a> |
+      <a href="glock_privacy.html" target="_blank">글록 개인정보처리방침</a>
+    </p>
     <p>&copy; 2025 Luiven Co., Ltd. All rights reserved.</p>
   </footer>
 </body>
