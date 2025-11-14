@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Sudoku - Privacy Policy</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #020617;
+      color: #e5e7eb;
+    }
+    header {
+      padding: 32px 16px 16px;
+      text-align: center;
+      background: #0b1120;
+    }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 26px;
+    }
+    header p {
+      margin: 0;
+      font-size: 13px;
+      opacity: 0.85;
+    }
+    main {
+      max-width: 900px;
+      margin: 24px auto 40px;
+      padding: 0 16px;
+    }
+    section {
+      background: #020617;
+      padding: 18px 18px;
+      margin-bottom: 16px;
+      border-radius: 12px;
+      border: 1px solid #111827;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 0 0 8px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.7;
+      margin: 0;
+      white-space: pre-line; /* 줄바꿈 보존 */
+    }
+    .updated {
+      font-size: 12px;
+      opacity: 0.9;
+    }
+    footer {
+      text-align: center;
+      padding: 12px;
+      font-size: 12px;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: November 14, 2025</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>1. Introduction</h2>
+      <p>
+This Privacy Policy explains how Luiven Co., Ltd. ("Luiven", "we", "us", or "our") handles information in connection with your use of the mobile application "Sudoku" (the "App"). We do not operate our own backend server for this App and we do not directly collect personal information such as your name or email address through the App.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Data We Do Not Collect Directly</h2>
+      <p>
+We do not ask you to create an account or sign in, and we do not require you to provide personal information such as your name, address, or contact details in order to use the App. We do not store such personal data on our own servers.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. Data Stored Locally on Your Device</h2>
+      <p>
+The App stores the following types of data locally on your device:
+• Sudoku puzzles and generated solutions;
+• current game progress and saved games;
+• in-game statistics (such as number of games played, clears, and times);
+• App settings, including difficulty level, theme, and language preferences.
+
+This local data is stored only on your device. If you uninstall the App, clear its data, or change devices, this data may be permanently deleted and cannot be recovered by us.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Firebase Analytics</h2>
+      <p>
+To help us understand how the App is used and to improve its performance, we use Firebase Analytics, a service provided by Google. Firebase Analytics may collect anonymized or aggregated information such as:
+• device information (for example, device model and operating system version);
+• App information (for example, App version and basic usage events);
+• coarse information about how often and how long the App is used.
+
+This information is used for analytics purposes only, to maintain and improve the App. The data collected by Firebase Analytics is processed by Google in accordance with Google’s own terms and privacy policy.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. No Direct Identification</h2>
+      <p>
+We do not use Firebase Analytics or any other tool in this App to directly identify you as an individual, such as by collecting your name or email address. Analytics data is used in an aggregated or anonymized form to help us understand overall usage trends.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Children’s Privacy</h2>
+      <p>
+The App is not specifically directed to children. We do not knowingly collect personal information directly from children. If you are a parent or guardian and believe that a child has provided personal information to us, please contact us using the contact details below, and we will take appropriate steps.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Security</h2>
+      <p>
+We take reasonable technical and organizational measures to help protect the App and the data stored on your device. However, no system is completely secure. You are responsible for maintaining the security of your device, including using screen locks or other protections as you deem appropriate.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Your Choices</h2>
+      <p>
+Because we do not collect personal information directly and data is stored locally on your device, many privacy choices are controlled at the device level. You can:
+• uninstall the App to stop all data collection and local storage related to this App;
+• use your device settings to limit or reset advertising identifiers or analytics preferences, if available in your OS;
+• clear the App’s data from your device settings to remove locally stored game data and settings.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. International Processing</h2>
+      <p>
+Firebase Analytics and other third-party services we may use can process data on servers located in various countries. By using the App, you acknowledge that such data may be processed outside of your country of residence, subject to the applicable laws and the third party’s privacy practices.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Changes to This Privacy Policy</h2>
+      <p>
+We may update this Privacy Policy from time to time to reflect changes in the App, in applicable laws, or in the third-party services we use. When we update this Privacy Policy, we will revise the "Last updated" date above. Your continued use of the App after the updated Policy becomes effective constitutes your acceptance of the changes.
+      </p>
+    </section>
+
+    <section>
+      <h2>11. Contact Information</h2>
+      <p>
+If you have any questions or concerns about this Privacy Policy or our data practices, please contact us:
+
+Company: Luiven Co., Ltd.
+CEO: Yuseong Jeon
+App: Sudoku
+Phone: +82 70-7954-6638 (Weekdays 09:00–18:00 KST)
+Email: comet@luiven.com
+Customer Support: support@luiven.com
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © Luiven Co., Ltd.
+  </footer>
+</body>
+</html>
