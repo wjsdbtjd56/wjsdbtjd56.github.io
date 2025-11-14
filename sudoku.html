@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Luiven Sudoku 앱 소개 – 스도쿠 퍼즐 게임, 이용약관 및 개인정보처리방침 안내" />
+  <title>Sudoku 앱 소개 – Luiven</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #0f172a, #1f2937, #111827);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+      background-color: rgba(0, 0, 0, 0.45);
+    }
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+    header p {
+      font-size: 16px;
+      opacity: 0.9;
+    }
+    nav {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .tabs {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 10px 0;
+    }
+    .tabs li {
+      margin: 0 15px;
+    }
+    .tabs a {
+      color: #ffc107;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.06);
+      padding: 36px;
+      border-radius: 16px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.35);
+    }
+    .container, .container h2, .container p, .container ul li {
+      color: #fff !important;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 18px;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      padding-bottom: 8px;
+    }
+    h3 {
+      font-size: 18px;
+      margin: 18px 0 8px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.8;
+      margin: 10px 0;
+    }
+    ul {
+      margin: 8px 0 12px 18px;
+      padding: 0;
+    }
+    li {
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    .badge {
+      display: inline-block;
+      background: #ffc107;
+      color: #111827;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .section-card {
+      background: rgba(15,23,42,0.8);
+      border-radius: 14px;
+      padding: 18px 18px 20px;
+      margin-top: 16px;
+      border: 1px solid rgba(148,163,184,0.4);
+    }
+    .btn-row {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .btn-primary {
+      background: #ffc107;
+      color: #111827;
+    }
+    .btn-outline {
+      border: 1px solid #ffc107;
+      color: #ffc107;
+      background: transparent;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+    footer a {
+      color: #aaa;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sudoku – 모바일 스도쿠 퍼즐</h1>
+    <p>깔끔한 UI와 다양한 난이도의 퍼즐을 제공하는 Luiven의 스도쿠 게임 앱</p>
+  </header>
+
+  <nav>
+    <ul class="tabs">
+      <li><a href="index.html">앱소개</a></li>
+      <li><a href="subscription.html">구독 안내</a></li>
+      <li><a href="glock.html">블록 (Blokd)</a></li>
+      <li><a href="delete_account.html">계정 삭제 안내</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <span class="badge">Sudoku</span>
+    <h2>앱 소개</h2>
+    <p>
+      <strong>Sudoku</strong>는 숫자를 채워 넣으며 규칙에 맞게 퍼즐을 완성하는 클래식 스도쿠 게임을
+      모바일에서 간편하게 즐길 수 있도록 만든 앱입니다. 난이도 선택, 진행 상황 저장, 통계 확인 등
+      퍼즐을 꾸준히 즐기기에 필요한 기능을 담고 있습니다.
+    </p>
+
+    <div class="section-card">
+      <h3>주요 특징</h3>
+      <ul>
+        <li>여러 난이도 제공 (예: Easy / Medium / Hard)</li>
+        <li>플레이 중인 퍼즐 자동 저장 및 이어하기</li>
+        <li>클리어 횟수, 기록 등 기본 통계 제공</li>
+        <li>테마 / 언어 / 난이도 등 설정은 모두 기기 내 로컬 저장</li>
+        <li>별도 회원가입/로그인 없이 바로 플레이 가능</li>
+      </ul>
+    </div>
+
+    <div class="section-card">
+      <h3>데이터 및 개인정보</h3>
+      <p>
+        Sudoku 앱은 별도의 백엔드 서버를 운영하지 않고, 퍼즐 데이터·게임 진행 상황·설정 등은
+        모두 <strong>기기 내에만 로컬로 저장</strong>합니다. 또한, Firebase Analytics를 통해
+        익명·통계적 수준의 사용 패턴을 분석하여 앱 품질 개선에 활용합니다.
+      </p>
+      <p>자세한 내용은 아래 문서를 참고해 주세요.</p>
+
+      <div class="btn-row">
+        <a class="btn btn-primary" href="sudoku_terms.html" target="_blank">
+          Sudoku 이용약관 보기
+        </a>
+        <a class="btn btn-outline" href="sudoku_privacy.html" target="_blank">
+          Sudoku 개인정보처리방침 보기
+        </a>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <h3>문의</h3>
+      <p>
+        Sudoku 앱에 대한 문의, 오류 제보, 개선 제안이 있다면 아래 연락처로 연락해 주세요.
+      </p>
+      <p>
+        회사: Luiven Co., Ltd.<br />
+        대표자: Yuseong Jeon<br />
+        앱: Sudoku<br />
+        전화: +82 70-7954-6638 (평일 09:00–18:00 KST)<br />
+        이메일: comet@luiven.com / support@luiven.com
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <p>주식회사 뤼벤 | 사업자등록번호: 750-97-03350 | 대표자: 전유성</p>
+    <p>주소: 서울특별시 서초구 사평대로길 13 | 전화: 070-7954-6638</p>
+    <p>
+      <a href="terms.html" target="_blank">이용약관(회사)</a> |
+      <a href="privacy.html" target="_blank">개인정보처리방침(회사)</a> |
+      <a href="sudoku_terms.html" target="_blank">Sudoku 이용약관</a> |
+      <a href="sudoku_privacy.html" target="_blank">Sudoku 개인정보처리방침</a>
+    </p>
+    <p>&copy; 2025 Luiven Co., Ltd. All rights reserved.</p>
+  </footer>
+</body>
+</html>
